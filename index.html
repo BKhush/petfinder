@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Adopt Us</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <!--nav bar-->
+    <div class="navbar-fixed">
+        <nav id="nav_f" class="default_color" role="navigation">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#" id="logo-container" class="brand-logo">Adopt Us</a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <ul id="nav-mobile" class="side-nav" style="left: -250px;">
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!--tabs-->
+
+    <div class="col s12">
+
+        <ul class="tabs">
+            <li class="tab col s6"><a class="active" href="#main">Main</a></li>
+            <li class="tab col s6"><a class="active" href="#breeds">Breeds</a></li>
+        </ul>
+
+    </div>
+
+    <!--Questions-->
+    <div id="questionAnswer" class="container">
+        <ul class="collapsible" data-collapsible="expandable">
+            <li>
+                <div class="collapsible-header teal lighten-2 "><i class="material-icons">question_answer</i>Which dog is right for you?</div>
+                <div class="collapsible-body teal lighten-5">
+                    <p>Answer the following questions!</p>
+                    <ul class="collapsible" data-collapsible="accordion">
+                        <li>
+                            <div class="collapsible-header "> 1. Which phrase best describes what you're looking for in a dog?</div>
+                            <div class="collapsible-body">
+                                <div class="answerTest">
+                                    <p>
+                                        <input name="group1" type="radio" id="q1answer1" />
+                                        <label for="q1answer1"> A cuddle friend who doesn't need tons of exercise</label>
+                                    </p>
+                                    <p>
+                                        <input name="group1" type="radio" id="q1answer2" />
+                                        <label for="q1answer2"> Sporty, high-energy dog</label>
+                                    </p>
+                                    <p>
+                                        <input name="group1" type="radio" id="q1answer3" />
+                                        <label for="q1answer3"> Family-friendly dog</label>
+                                    </p>
+                                    <p>
+                                        <input name="group1" type="radio" id="q1answer4" />
+                                        <label for="q1answer4">A loyal companion</label>
+                                    </p>
+                                    <p>
+                                        <input name="group1" type="radio" id="q1answer5" />
+                                        <label for="q1answer5">None of these apply/not sure yet
+                                        </label>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header "> 2. What size dog are you considering?</div>
+                            <div class="collapsible-body">
+                                <div class="answerTest">
+                                    <p>
+                                        <input name="group2" type="radio" id="q2answer1" />
+                                        <label for="q2answer1"> I prefer small dogs</label>
+                                    </p>
+                                    <p>
+                                        <input name="group2" type="radio" id="q2answer2" />
+                                        <label for="q2answer2"> I prefer medium dogs</label>
+                                    </p>
+                                    <p>
+                                        <input name="group2" type="radio" id="q2answer3" />
+                                        <label for="q2answer3"> I prefer large dogs</label>
+                                    </p>
+                                    <p>
+                                        <input name="group2" type="radio" id="q3answer4" />
+                                        <label for="q3answer4">Any size is fine</label>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header "> 3. Are you looking for your dog to be a jogging companion?</div>
+                            <div class="collapsible-body">
+                                <div class="answerTest">
+                                    <p>
+                                        <input name="group3" type="radio" id="q3answer1" />
+                                        <label for="q3answer1"> Yes</label>
+                                    </p>
+                                    <p>
+                                        <input name="group3" type="radio" id="q3answer2" />
+                                        <label for="q3answer2">Now and then</label>
+                                    </p>
+                                    <p>
+                                        <input name="group3" type="radio" id="q3answer3" />
+                                        <label for="q3answer3"> I'm just looking for a companion</label>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header "> 4. What kind of home do you have?</div>
+                            <div class="collapsible-body">
+                                <div class="answerTest">
+                                    <p>
+                                        <input name="group4" type="radio" id="q4answer1" />
+                                        <label for="q4answer1"> Small apartment, no yard</label>
+                                    </p>
+                                    <p>
+                                        <input name="group4" type="radio" id="q4answer2" />
+                                        <label for="q4answer2"> House, with yard</label>
+                                    </p>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header "> 5. How old are the children in your home?</div>
+                            <div class="collapsible-body">
+                                <div class="answerTest">
+                                    <p>
+                                        <input name="group5" type="radio" id="q5answer1" />
+                                        <label for="q5answer1"> 7 and under</label>
+                                    </p>
+                                    <p>
+                                        <input name="group5" type="radio" id="q5answer2" />
+                                        <label for="q5answer2"> 8 and older</label>
+                                    </p>
+                                    <p>
+                                        <input name="group5" type="radio" id="q5answer3" />
+                                        <label for="q5answer3"> I have children in both of the above categories</label>
+                                    </p>
+                                    <p>
+                                        <input name="group5" type="radio" id="q5answer4" />
+                                        <label for="q5answer4">I don't have children at home</label>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header "> 6. How much does fur bother you?</div>
+                            <div class="collapsible-body">
+                                <div class="answerTest">
+                                    <p>
+                                        <input name="group6" type="radio" id="q6answer1" />
+                                        <label for="q6answer1"> I'm oblivious to it</label>
+                                    </p>
+                                    <p>
+                                        <input name="group6" type="radio" id="q6answer2" />
+                                        <label for="q6answer2"> I don't mind a little fur</label>
+                                    </p>
+                                    <p>
+                                        <input name="group6" type="radio" id="q6answer3" />
+                                        <label for="q6answer3"> I hate the idea of hair on my clothes or furniture</label>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header "> 7. How much does drooling bother you?</div>
+                            <div class="collapsible-body">
+                                <div class="answerTest">
+                                    <p>
+                                        <input name="group7" type="radio" id="q7answer1" />
+                                        <label for="q7answer1"> Not a bit.</label>
+                                    </p>
+                                    <p>
+                                        <input name="group7" type="radio" id="q7answer2" />
+                                        <label for="q7answer2"> Not my favorite, but I can deal with a little. Especially if it's the right dog.</label>
+                                    </p>
+                                    <p>
+                                        <input name="group7" type="radio" id="q7answer3" />
+                                        <label for="q7answer3"> I really don't like it.</label>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input id="first_name" type="text" class="validate">
+                            <label for="first_name">Name</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="zip_name" type="text" class="validate">
+                            <label for="zip_code">ZIP Code</label>
+                        </div>
+                    </div>
+                    <button id="breedSearchQ" class="btn teal lighten-1 waves-effect waves-light" type="submit" name="action">Submit</button>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!--Questions-->
+
+    <!--Front page-->
+    <div class="container">
+        <div class="section content">
+            <div class="row">
+                <!--First Tab-->
+                <div id="main" class="col s12 m12">
+                    <!--Side main page-->
+                    <div class="col s12 m4 left-side">
+                        <div class="row dogs">
+                            <div class="col s12">
+                                <ul class="collapsible" data-collapsible="accordion">
+                                    <li class="">
+                                        <div class="collapsible-header"><i class="material-icons">label</i>Search by breed</div>
+                                        <div class="collapsible-body" style="display: none;">
+                                            <button class="btn teal lighten-1 waves-effect waves-light" onclick="findDogBreed('poodle')">Poodle</button>
+                                            <button class="btn teal lighten-1 waves-effect waves-light" onclick="findDogBreed('greyhound')">Greyhound</button>
+                                            <button class="btn teal lighten-1 waves-effect waves-light" onclick="findDogBreed('French Bulldog')">French Bulldog</button>
+                                            <button class="btn teal lighten-1 waves-effect waves-light" onclick="findDogBreed('Dachshund')">Dachshund</button>
+                                            <button class="btn teal lighten-1 waves-effect waves-light" onclick="findDogBreed('Pug')">Pug</button>
+                                            <button class="btn teal lighten-1 waves-effect waves-light" onclick="findDogBreed('Sloughi')">Sloughi</button>
+                                            <button class="btn teal lighten-1 waves-effect waves-light" onclick="findDogBreed('Dalmatian')">Dalmatian</button>
+                                            <button class="btn teal lighten-1 waves-effect waves-light" onclick="findDogBreed('Bullmastiff')">Bullmastiff</button>
+                                            <button class="btn teal lighten-1 waves-effect waves-light" onclick="findDogBreed('Beagle')">Beagle</button>
+                                            <div class="row">
+                                                <div class="input-field col s6">
+                                                    <input id="breed_name" type="text" class="validate">
+                                                    <label for="breed_name">Breed Name</label>
+                                                </div>
+                                                <div class="input-field col s6">
+                                                    <input id="breedzip_code" type="text" class="validate">
+                                                    <label for="breedzip_code">ZIP Code</label>
+                                                </div>
+                                                <button id="breedSearch" class="btn teal lighten-1 waves-effect waves-light" type="submit" name="action" onclick="findDogBreedWithLocation(document.getElementById('breed_name').value, document.getElementById('breedzip_code').value)">Search</button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--More Button-->
+                        <a class="waves-effect waves-light btn" onclick="reloadFrontRandomDogs()"><i class="material-icons right">replay</i>Get More!</a>
+                        <!-- Modal Trigger -->
+                        <a class="waves-effect waves-light btn modal-trigger" id="modalBtn" onClick="getChosenDogData('34626809')" href="#modal1">Modal</a>
+                    </div>
+
+                    <!--Main Page-->
+                    <div class="col s12 m8 right-side">
+                        <!--card 1-->
+                        <div id="petCard1">
+                            <div class="col s12 m6">
+                                <div class="card small">
+                                    <div class="card-image waves-effect waves-block waves-light"> <img class="activator" src="images/sadDog.jpg"> </div>
+                                    <div class="card-content"> <span class="card-title activator grey-text text-darken-4">Pet Name<i class="material-icons right">more_vert</i></span> </div>
+                                    <div class="card-reveal"> <span class="card-title grey-text text-darken-4">Pet Name<i class="material-icons right">close</i></span>
+                                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                        <p><a href="#">This is a link</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--card 2-->
+                        <div id="petCard2">
+                            <div class="col s12 m6">
+                                <div class="card small">
+                                    <div class="card-image waves-effect waves-block waves-light"> <img class="activator" src="images/sadDog.jpg"> </div>
+                                    <div class="card-content"> <span class="card-title activator grey-text text-darken-4">Pet Name<i class="material-icons right">more_vert</i></span> </div>
+                                    <div class="card-reveal"> <span class="card-title grey-text text-darken-4">Pet Name<i class="material-icons right">close</i></span>
+                                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                        <p><a href="#">This is a link</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--card 3-->
+                        <div id="petCard3">
+                            <div class="col s12 m6">
+                                <div class="card small">
+                                    <div class="card-image waves-effect waves-block waves-light"> <img class="activator" src="images/sadDog.jpg"> </div>
+                                    <div class="card-content"> <span class="card-title activator grey-text text-darken-4">Pet Name<i class="material-icons right">more_vert</i></span> </div>
+                                    <div class="card-reveal"> <span class="card-title grey-text text-darken-4">Pet Name<i class="material-icons right">close</i></span>
+                                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                        <p><a href="#">This is a link</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--card 4-->
+                        <div id="petCard4">
+                            <div class="col s12 m6">
+                                <div class="card small">
+                                    <div class="card-image waves-effect waves-block waves-light"> <img class="activator" src="images/sadDog.jpg"> </div>
+                                    <div class="card-content"> <span class="card-title activator grey-text text-darken-4">Pet Name<i class="material-icons right">more_vert</i></span> </div>
+                                    <div class="card-reveal"> <span class="card-title grey-text text-darken-4">Pet Name<i class="material-icons right">close</i></span>
+                                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                        <p><a href="#">This is a link</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--card 5-->
+                        <div id="petCard5">
+                            <div class="col s12 m6">
+                                <div class="card small">
+                                    <div class="card-image waves-effect waves-block waves-light"> <img class="activator" src="images/sadDog.jpg"> </div>
+                                    <div class="card-content"> <span class="card-title activator grey-text text-darken-4">Pet Name<i class="material-icons right">more_vert</i></span> </div>
+                                    <div class="card-reveal"> <span class="card-title grey-text text-darken-4">Pet Name<i class="material-icons right">close</i></span>
+                                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                        <p><a href="#">This is a link</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--card 6-->
+                        <div id="petCard6">
+                            <div class="col s12 m6">
+                                <div class="card small">
+                                    <div class="card-image waves-effect waves-block waves-light"> <img class="activator" src="images/sadDog.jpg"> </div>
+                                    <div class="card-content"> <span class="card-title activator grey-text text-darken-4">Pet Name<i class="material-icons right">more_vert</i></span> </div>
+                                    <div class="card-reveal"> <span class="card-title grey-text text-darken-4">Pet Name<i class="material-icons right">close</i></span>
+                                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                        <p><a href="#">This is a link</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!---End of all the cards-->
+                    </div>
+                </div>
+
+                <!--Second Tab-->
+                <div id="breeds" class="col s12 m12">
+                    <div class="col s12">
+                        <ul class="collapsible popout" data-collapsible="accordion">
+                            <li>
+                                <div class="collapsible-header">Easy to Train</div>
+                                <div class="collapsible-body">
+                                    <p>Australian Cattle Dog</p>
+                                    <p>Australian Shepherd</p>
+                                    <p>Border Collie</p>
+                                    <p>Cardigan Welsh Corgi</p>
+                                    <p>Doberman Pinscher</p>
+                                    <p>German Shepherd Dog</p>
+                                    <p>Golden Retriever</p>
+                                    <p>Labrador Retriever</p>
+                                    <p>Papillon</p>
+                                    <p>Poodle</p>
+                                    <p> Rottweiler</p>
+                                    <p>Shetland Sheepdog</p>
+                                </div>
+                            </li>
+                            <br>
+                            <li>
+                                <div class="collapsible-header">Large Dog</div>
+                                <div class="collapsible-body">
+                                    <p>Alaskan Malamute</p>
+                                    <p>Bernese Mountain Dog</p>
+                                    <p>Bloodhound</p>
+                                    <p>Bullmastiff</p>
+                                    <p>Doberman Pinscher</p>
+                                    <p>German Shepherd</p>
+                                    <p>Chesapeake Bay Retriever</p>
+                                    <p>Great Pyrenees</p>
+                                    <p>Mastiff</p>
+                                    <p>Saint Bernard</p>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+        <div class="row">
+            <i id="closeModal" class="material-icons right" onclick="closeModal()">close</i>
+            <div id="chosenDogImg">
+                <div class="slider">
+                    <ul class="slides">
+                        <li>
+                            <img id="fixDogImg" class="col s12 m4" src="images/sadDog.jpg">
+                        </li>
+                        <!--add more li tag for more images-->
+                    </ul>
+                </div>
+            </div>
+            <div class="col s12 m4">
+                <p id="chosenDogName">Name:</p>
+                <p id="chosenDogBreed">Breed:</p>
+                <p id="chosenDogAge">Age:</p>
+                <p id="chosenDogSex">Sex:</p>
+            </div>
+            <div class="col s12 m4">
+                <p><b>Contact Info</b></p>
+                <p id="chosenDogAdress"><b>Address:</b></p>
+                <p id="chosenDogPhone"><b>Phone Number:</b></p>
+                <p id="chosenDogEmail"><b>Email:</b></p>
+            </div>
+            <div class="col s12 m12">
+                <p><b>Description:</b></p>
+                <p id="chosenDogInfo">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede </p>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <!-- <footer class="page-footer teal lighten-2">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Adopt a pet</h5>
+                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Resources used</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="http://materializecss.com/">Materialize</a></li>
+                        <li><a class="grey-text text-lighten-3" href="https://www.petfinder.com/">Pet Finder</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container"> © 2014 Copyright dogs <a class="grey-text text-lighten-4 right" href="#!">Dog</a> </div>
+        </div>
+    </footer> -->
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+
+</html>

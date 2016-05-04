@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+body {
+	background-color: #eee;
+}
+.container {
+	position:relative;
+   
+}
+.container .breedsmatchup-quiz{
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+}
+
+.collapsible-body{
+ padding: 10px;
+}
+
+.content {
+	background-color: #fff;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+	border-radius: 2px;
+	overflow: hidden;
+	z-index: 9;
+	margin-top: 25px;
+	margin-bottom:50px;
+}
+.nav-wrapper .brand-logo {
+	padding-left: 25px;
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    width: 80%; 
+    overflow: auto;
+}
+
+.modal-content {
+    position: relative;
+    background-color: #00897b;
+    margin: auto; 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+.btn{
+ 	margin:4px;
+}
+.chip {
+    margin: 4px;
+}
+
+#fixDogImg {  
+  margin-top: 16px;
+  width: auto;
+  max-width: 225px;
+  height: auto;
+  max-height: 300px;
+}
+
+.collapsible-body p{
+padding: 0rem;
+}
+#questionAnswer {
+    margin-top: 25px;
+}
+
+.default_color {
+    background-color: #4db6ac;
+}
+
+.brand-logo{
+    font-weight: 200;
+    letter-spacing: 7px;
+}
+
+.collapsible-body .btn {
+    
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.card-title {
+    text-transform:capitalize;
+}
+#breedSearch{
+    margin-left: 20px;
+}
+
+.tabs {
+    background-color: #4db6ac;
+}
+.tabs .tab a:hover{
+    color: #00695c;
+}
+.tabs .tab a {
+    color: #eee;
+}
+
+#tabColor {
+    color: #4db6ac;
+}
